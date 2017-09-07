@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FAQ">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#ffff">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="26dp"
+            android:src="@drawable/icon_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="28dp"
+            android:letterSpacing="-0.02"
+            android:lineSpacingExtra="12sp"
+            android:text="@string/FAQ"
+            android:textColor="#de000000"
+            android:textSize="16sp" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#778496"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:text="General"
+                    android:textColor="#b3ffffff"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/bt_what"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/border_bottom"
+                android:drawableRight="@drawable/icon_down"
+                android:gravity="center_vertical"
+                android:paddingLeft="14dp"
+                android:paddingRight="16dp"
+                android:text="1. What is Axcro?"
+                android:textAllCaps="false"
+                android:textColor="#de000000"
+                android:textSize="14sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout_what"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_below="@+id/bt_what"
+                android:background="#f6f6f6"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="22dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="14dp"
+                    android:text="Axcro enables you to buy with confidence all sorts of packaged services provided by merchants. If a merchant fails to fulfil its obligation to provide the service, you can request refund from us based on the number of unused services under that merchant."
+                    android:textColor="#8a000000"
+                    android:textSize="14sp" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/bt_how"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/border_bottom"
+                android:drawableRight="@drawable/icon_down"
+                android:gravity="center_vertical"
+                android:paddingLeft="14dp"
+                android:paddingRight="16dp"
+                android:text="2. How does Axcro work?"
+                android:textAllCaps="false"
+                android:textColor="#de000000"
+                android:textSize="14sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout_how"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_below="@+id/bt_how"
+                android:background="#f6f6f6"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="22dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="14dp"
+                    android:text="Axcro enables you to buy with confidence all sorts of packaged services provided by merchants. If a merchant fails to fulfil its obligation to provide the service, you can request refund from us based on the number of unused services under that merchant."
+                    android:textColor="#8a000000"
+                    android:textSize="14sp" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/bt_where"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/border_bottom"
+                android:drawableRight="@drawable/icon_down"
+                android:gravity="center_vertical"
+                android:paddingLeft="14dp"
+                android:paddingRight="16dp"
+                android:text="3. Where do I go if I need assistance?"
+                android:textAllCaps="false"
+                android:textColor="#de000000"
+                android:textSize="14sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout_where"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_below="@+id/bt_where"
+                android:background="#f6f6f6"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="22dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="14dp"
+                    android:text=""
+                    android:textColor="#8a000000"
+                    android:textSize="14sp" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/bt_refer"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/border_bottom"
+                android:drawableRight="@drawable/icon_down"
+                android:gravity="center_vertical"
+                android:paddingLeft="14dp"
+                android:paddingRight="16dp"
+                android:text="4. Can I refer friends to Axcro?"
+                android:textAllCaps="false"
+                android:textColor="#de000000"
+                android:textSize="14sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout_refer"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_below="@+id/bt_refer"
+                android:background="#f6f6f6"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="22dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="14dp"
+                    android:text=""
+                    android:textColor="#8a000000"
+                    android:textSize="14sp" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/bt_purchase"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/border_bottom"
+                android:drawableRight="@drawable/icon_down"
+                android:gravity="center_vertical"
+                android:paddingLeft="14dp"
+                android:paddingRight="16dp"
+                android:text="5. Can I purchase a service as a gift?"
+                android:textAllCaps="false"
+                android:textColor="#de000000"
+                android:textSize="14sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout_purchase"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_below="@+id/bt_purchase"
+                android:background="#f6f6f6"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="22dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="14dp"
+                    android:text=""
+                    android:textColor="#8a000000"
+                    android:textSize="14sp" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#778496"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:text="Payment &amp; Refund"
+                    android:textColor="#b3ffffff"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_payment"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/border_bottom"
+                android:drawableRight="@drawable/icon_down"
+                android:gravity="center_vertical"
+                android:paddingLeft="14dp"
+                android:paddingRight="16dp"
+                android:text="1. What are the payment methods for Axcro?"
+                android:textAllCaps="false"
+                android:textColor="#de000000"
+                android:textSize="14sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout_payment"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_below="@+id/bt_payment"
+                android:background="#f6f6f6"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="22dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="14dp"
+                    android:text=""
+                    android:textColor="#8a000000"
+                    android:textSize="14sp" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
