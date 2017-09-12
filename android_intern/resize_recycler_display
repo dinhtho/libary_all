@@ -1,0 +1,2 @@
+View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_product, null, true);
+            view.setLayoutParams(new RecyclerView.LayoutParams(mRecyclerView.getWidth(), RecyclerView.LayoutParams.MATCH_PARENT));

@@ -1,0 +1,113 @@
+GIAO TIEP FTP CLIENT 
+
+1/ Connect
+    ftp fiot.vn
+
+username: tho
+password: tho1234
+
+2/ Download
+    1 file:  get a.pdf 
+    multiple file:  mget *.pdf
+
+3/ Upload
+    1 file:  put a.pdf
+    multiple file:  mput *.pdf
+
+Liệt kê file
+ftp> ls
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Đổi thư mục
+ftp> cd tenthumuc
+
+Dowload / Copy file
+ftp> get tenfile
+ftp> get tenfile tenmoi  // download file về và đặt tên mới
+
+Download nhiều file
+ftp> mget * // download tất cả các file
+ftp> mget file1 file2 // dowload 2 file một lúc
+
+Thay đổi thư mục ở máy local
+ftp> lcd tenthumuc
+
+Hiển thi tên thư mục hiện tại ở máy local
+ftp> lcd .
+
+Xóa các file
+ftp> delete tenfile
+
+Upload file
+ftp> put tenfile
+ftp> mput file1 file2 // upload 2 file một lúc
+
+Tạo thư mục
+ftp> mkdir tenthumuc
+
+Xóa thư mục
+ftp> rmdir tenthumuc
+
+Thiết lập mode FTP
+ftp> ascii  // đây là mode mặc định 
+ftp> binary // mode giúp truyền các file hình ảnh, file zip ít bị lỗi
+
+Ngoài ra ta có thể xem danh sách các lệnh của FTP
+ftp> help
+
+
+
+
+////////////////////////////////////////////////////////////////////
+
+ẩn hiên view
+ txtNod=(TextView)findViewById(R.id.textViewNoD);
+       txtNod.setVisibility(View.VISIBLE);//View.VISIBLE
+
+set text,.... taij trung tâm View
+
+ android:gravity="center"
+
+//////////////////////////////////////////////////////////////////
+
+
+Linux provides a nice little command which makes our lives a lot easier.
+
+GET:
+
+with JSON:
+
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" http://hostname/resource
+POST:
+
+For posting data:
+
+curl --data "param1=value1&param2=value2" http://hostname/resource
+
+
+
+
+/////////////////////////////////////
+Array cua class Product
+ public static ArrayList<Product> product;
+
+/////////////////////////////////
+Ngăn focus edittext
+android:focusableInTouchMode="true"
+ android:focusable="true"
+
+////////// zip
+1/ zip a.zip a.txt b.txt c.txt d.txt
+2/ zip -r a.zip a/
+
+/////////// unzip
+1/ Normal
+    unzip a.zip
+
+2/ Overwrite
+    unzip -o a.zip
+
+3/ Extract to directory
+    unzip a.zip -d /opt/download

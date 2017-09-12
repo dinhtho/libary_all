@@ -1,0 +1,20 @@
+ public String GetJsonData(String url) {
+        try {
+            URL Url = new URL(url);
+            HttpURLConnection connection = (HttpURLConnection) Url.openConnection();
+            InputStream is = connection.getInputStream();
+            BufferedReader br = new BufferedReader(new InputStreamReader(is));
+            StringBuilder sb = new StringBuilder();
+            String line;
+            while ((line = br.readLine()) != null) {
+                sb.append(line);
+            }
+            line = sb.toString();
+            connection.disconnect();
+            is.close();
+            sb.delete(0, sb.length());
+            return line;
+        } catch (Exception e) {
+            return null;
+        }
+    }

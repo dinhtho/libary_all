@@ -1,0 +1,15 @@
+dung sharedpreferences
+
+private SharedPreferences prefs;
+
+////////Lấy giá trị khi mở app
+prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+////////// Put giá trị khi close app
+@Override
+    protected void onStop() {
+        super.onStop();
+        SharedPreferences.Editor editPrefs = prefs.edit();
+        Log.i(TAG, "onPause: "+i);
+        editPrefs.putInt("time", i);
+        editPrefs.commit();
+    }

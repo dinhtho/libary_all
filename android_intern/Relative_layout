@@ -1,0 +1,51 @@
+
+/// giữa chiều ngang
+android:layout_centerHorizontal="true"
+
+/// chuyen sang edit text et2
+ android:singleLine="true"
+ android:nextFocusForward="@+id/et2"
+
+/// keo keyboard sat hint edittext
+ android:windowSoftInputMode="adjustPan|adjustResize"
+
+// cach deu 4 canh
+ android:padding="3dp"
+
+
+
+// chia ti le lay kich thuoc button
+
+                                <LinearLayout
+                                    android:weightSum="10"
+                                    android:orientation="horizontal"
+                                    android:gravity="center_horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="5">
+                                    <Button
+                                        android:layout_width="0dp"
+                                        android:layout_weight="2"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/bg_button"
+                                        android:text="off"
+                                        android:textColor="#f7f3f3" />
+                                </LinearLayout>
+
+/////////// thay doi background UI khi nhan
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/button_pressed" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/button_focused" /> <!-- focused -->
+    <item android:drawable="@drawable/button_normal" /> <!-- default -->
+</selector>
+
+///////////// spinner
+spinner_CCA = (Spinner) findViewById(R.id.spinner_CCA);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.spinner_item, list_CCA);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner_CCA.setAdapter(adapter);
+        int spinnerPosition = adapter.getPosition("500");
+        spinner_CCA.setSelection(spinnerPosition);

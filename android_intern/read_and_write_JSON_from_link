@@ -1,0 +1,111 @@
+package com.example.dinhtho.test;
+
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+public class MainActivity extends AppCompatActivity {
+    String TAG="test_url";
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        new Task().execute();
+
+
+    }
+
+
+
+class Task extends AsyncTask<Object, Object, Void> {
+
+    private Exception exception;
+
+    protected Void doInBackground(Object... urls) {
+        try {
+            String a = sendPost("https://trendcloud.net/alpha//index.php/apis/ControllerApisRequestFreeToken", "9");
+            Log.i(TAG, "doInBackground: " + a);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    protected void onPostExecute(String r) {
+
+    }
+
+    private String sendPost(String url, String version) throws Exception {
+        String newFirmwareUrl = null;
+        URL obj = new URL(url);
+        HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+
+        //push request header
+        con.setRequestMethod("POST");
+        con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
+
+        String urlParameters = "device_id=" + version;
+       // Log.i(TAG, "sendPost: " + urlParameters);
+        //LogPost.saveData(mContext, "send post to get firmware version: " + urlParameters);
+
+        DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+        wr.writeBytes(urlParameters);
+        wr.flush();
+        wr.close();
+
+        BufferedReader in = new BufferedReader(
+                new InputStreamReader(con.getInputStream()));
+        String inputLine;
+        StringBuffer response = new StringBuffer();
+
+
+
+        JSONObject reader = new JSONObject(" {\"result\":\"success\",\"list_token\":[\"419143844379\",\"512437528899\"]}");
+        String result = reader.getString("result");
+        Log.i(TAG, "sendPost: "+result);
+        if(result.equals("fail")){
+            String message=reader.getString("message");
+            Log.i(TAG, "sendPost: "+message);
+        }
+        else if(result.equals("success")){
+            String list_token=reader.getString("list_token");
+            JSONArray json_list_token = new JSONArray(list_token);
+            for(int i=0; i<json_list_token .length(); i++){
+                String a= String.valueOf(json_list_token.get(i));
+                Log.i(TAG, "sendPost: "+a);
+
+
+            }
+
+
+        }
+
+
+       //Log.i(TAG, "Response: " + response.toString());
+        //LogPost.saveData(mContext, "Response get firmware version: " + response.toString());
+
+//        JSONObject reader = new JSONObject(response.toString());
+//        String result = reader.getString("has_new_ver");
+//
+//        if (result.equalsIgnoreCase("1")) {
+//            newFirmwareUrl = reader.getString("bin_url");
+//            //versionTmp = Integer.parseInt(reader.getString("version"));
+//        }
+
+        return newFirmwareUrl;
+    }
+}
+}
+
