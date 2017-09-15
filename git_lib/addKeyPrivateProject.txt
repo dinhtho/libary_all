@@ -1,0 +1,3 @@
+$ ssh-keygen
+add follow to default patch to save key with name "/c/Users/PCPV/.ssh/id_rsa"
+$ ssh -vT git@bitbucket.org
