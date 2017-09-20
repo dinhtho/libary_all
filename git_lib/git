@@ -42,3 +42,6 @@ git add -A
 git commit -m ‘First commit'
 git remote add origin git@bitbucket.org:android-fiot/greenhouse-android.git
 git push -u origin master
+
+/////////////// clone code from a specific branch
+git clone -b my-branch git@github.com:user/myproject.git
