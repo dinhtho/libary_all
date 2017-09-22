@@ -1,0 +1,15 @@
+1.Singleton
+The way create only a instance from a class.
+Example:
+class A{
+	private A a;
+	private A(){
+	};
+	public static A getInstance(){
+		if(a==null){
+			a= new A();
+		}
+		return a;
+	}
+
+}
