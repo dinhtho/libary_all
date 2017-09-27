@@ -1,4 +1,4 @@
-///////////////////////////////////// tao nhanh new-branch
+﻿///////////////////////////////////// tao nhanh new-branch
 dinhtho@dinhtho:~/dxh-android$ git branch -a
 
 dinhtho@dinhtho:~/dxh-android$ git branch new-branch
@@ -45,3 +45,6 @@ git push -u origin master
 
 /////////////// clone code from a specific branch
 git clone -b my-branch git@github.com:user/myproject.git
+
+////////////// remove a branch
+git push origin --delete branch_to_be_deleted
