@@ -1,2 +1,2 @@
-xxhdpi->xxxhdpi
+xxhdpi(1080x1920)-> xxxhdpi(1440x2560)
 1 -> 1.16
