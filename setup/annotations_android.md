@@ -15,3 +15,7 @@ dependencies {
     compile "org.androidannotations:androidannotations-api:$AAVersion"
 }
 ```
+
+```groovy
+compile 'com.weiwangcn.betterspinner:library:1.1.0'
+```
