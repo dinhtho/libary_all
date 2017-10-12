@@ -6,6 +6,12 @@ dependencies {
     compile 'com.afollestad:sectioned-recyclerview:0.5.0'
 }
 ```
+```gradle
+dependencies {
+    // ... other dependencies
+    compile 'com.afollestad:sectioned-recyclerview:0.5.0'
+}
+```
 
 <h1>Add build.gradle(project)</h1>
 ```groovy
@@ -25,10 +31,5 @@ dependencies {
 }
 ```
 
-```gradle
-dependencies {
-    // ... other dependencies
-    compile 'com.afollestad:sectioned-recyclerview:0.5.0'
-}
-```
+
 
