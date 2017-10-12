@@ -16,6 +16,9 @@ dependencies {
 }
 ```
 
-```groovy
-compile 'com.weiwangcn.betterspinner:library:1.1.0'
+```gradle
+dependencies {
+    // ... other dependencies
+    compile 'com.afollestad:sectioned-recyclerview:0.5.0'
+}
 ```
