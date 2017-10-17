@@ -1,24 +1,11 @@
 ﻿///////////////////////////////////// tao nhanh new-branch
-dinhtho@dinhtho:~/dxh-android$ git branch -a
 
 dinhtho@dinhtho:~/dxh-android$ git branch new-branch
 dinhtho@dinhtho:~/dxh-android$ git checkout new-branch
 
-dinhtho@dinhtho:~/dxh-android$ git branch -a
-
-dinhtho@dinhtho:~/dxh-android$ git status
-
 dinhtho@dinhtho:~/dxh-android$ git add -A
-dinhtho@dinhtho:~/dxh-android$ git commit -m "Enable back in chartactivity"
-
+dinhtho@dinhtho:~/dxh-android$ git commit -m "first commit"
 dinhtho@dinhtho:~/dxh-android$ git push -u origin new-branch
-
-dinhtho@dinhtho:~/dxh-android$ git status
-
-dinhtho@dinhtho:~/dxh-android$ git branch -a
-
-
-
 
 
 //////////////////////////////// restore file tu lan commit fg378o78
@@ -26,25 +13,28 @@ step1 $ git branch master-recovery fg378o78
 step2 git push origin master-recovery:master --force
 step3 git pull origin master
 
+
 /////////////////////////////// delete mot file 
 git rm -r folderName
 git commit -m 'Delete folder folderName 
  git push.
+
 ///////////////////////////////// git clone 1 file tren duong dan
 git archive --remote=git@bitbucket.org:thonguyendinh/androidbluetooth.git HEAD EventBus-Example-master | tar -x
 ///////////////////////////////// loi git
  $ git pull
  $ git fetch 
  $ git merge
-//////////////////////////////// day project len 1 duong dan cho truoc 
-git init
-git add -A
-git commit -m ‘First commit'
-git remote add origin git@bitbucket.org:android-fiot/greenhouse-android.git
-git push -u origin master
+
 
 /////////////// clone code from a specific branch
 git clone -b my-branch git@github.com:user/myproject.git
 
 ////////////// remove a branch
 git push origin --delete branch_to_be_deleted
+
+
+//////////// update from master
+git pull origin master
+
+
