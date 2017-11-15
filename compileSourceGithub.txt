@@ -1,0 +1,18 @@
+compile source from github
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+
+dependencies {
+		compile 'com.github.User:Repo:Tag'
+	}
+
+example https://github.com/mrmans0n/smart-location-lib
+User: mrmans0n
+Repo: smart-location-lib
+Tag : version
