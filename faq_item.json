@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "question": "What is Tacko?",
+    "answer": "Tacko is a peer-to-peer marketplace for international shopping and delivery powered by our community of shoppers and travellers.",
+    "group": 0
+  },
+  {
+    "id": 2,
+    "question": "Who can use Tacko?",
+    "answer": "Anyone over the age of 18 are welcomed to join the Tacko community.",
+    "group": 0
+  },
+  {
+    "id": 3,
+    "question": "How do I change my profile picture?",
+    "answer": "Go to the side menu and click on your profile picture. After that, click on the pencil tool on the top right corner of the screen. You will be directed to a page where you can upload your desired profile picture. To save the changes, click \"DONE\" at the bottom of the screen.",
+    "group": 0
+  },
+  {
+    "id": 4,
+    "question": "How do I change my username or address?",
+    "answer": "Go to the side menu and click on your profile picture. After that, click on the pencil tool on the top right corner of the screen. You will be directed to a page where you can enter your new username or address. To save the changes, click \"DONE\" at the bottom of the screen.",
+    "group": 0
+  },
+  {
+    "id": 5,
+    "question": "How do I change my country?",
+    "answer": "Go to the side menu and click on your profile picture. After that, click on the pencil tool on the top right corner of the screen. You will be directed to a page where you can select the country. To save the changes, click \"DONE\" at the bottom of the screen.",
+    "group": 0
+  },
+  {
+    "id": 6,
+    "question": "How do I add a description about myself?",
+    "answer": "Go to the side menu and click on your profile picture. After that, click on the pencil tool on the top right corner of the screen. You will be directed to a page where you can enter an introduction about yourself under \"About Me\". To save the changes, click \"DONE\" at the bottom of the screen.",
+    "group": 0
+  },
+  {
+    "id": 7,
+    "question": "How do I change from a shopper to a traveller?",
+    "answer": "Go to the side menu and click on \"SHOP\" or \"TRAVELLER\" to become a shopper or traveller respectively.",
+    "group": 0
+  },
+  {
+    "id": 8,
+    "question": "Can I trust the other party?",
+    "answer": "Yes. After the shopper deposits the payment, we will secure the deposit. Once the product is delivered, the deposit is released. The deposit will be refunded to the shopper if the order is not delivered. We also have a rating system, so you can check the reliability of the other party before making or accepting the offer.",
+    "group": 0
+  },
+  {
+    "id": 9,
+    "question": "What are the community guidelines?",
+    "answer": "<!DOCTYPE html><html><body><p><u>Be polite and respectful</u><br>Tacko is a community and not a courier service. Please treat every member with courtesy and politeness. Any form of harassment or offensive language is a violation of our community guidelines.</p><p><u>Don't lists products that are prohibited</u><br>Dangerous, inappropriate or illegal items are prohibited on Tacko. Examples of these items include drugs, tobacco, weapons, adult and mature content.</p><p><u>Keep all deals within Tacko</u><br>Refrain from transacting on another platform. Tacko provides a secure payment and messaging system to assure shoppers receive their orders and travellers receive payment upon delivery. Transacting outside of Tacko is a violation of our Terms of Service. If a shopper or traveller proposes to pay outside of Tacko, decline and report to us immediately.</p></body></html>",
+    "group": 1
+  },
+  {
+    "id": 10,
+    "question": "How do I log out?",
+    "answer": "Go to the side menu and click on \"Settings\". Click on \"Log out\" to log out of Tacko.",
+    "group": 1
+  },
+  {
+    "id": 11,
+    "question": "Is Tacko free to use?",
+    "answer": "Yes. Tacko is free to use. However, we charge a 20% service fee to our shoppers for every transaction made to cover our transaction fees and operational costs.",
+    "group": 1
+  },
+  {
+    "id": 12,
+    "question": "How do I check the Terms and Conditions or Privacy Policy?",
+    "answer": "Go to the side menu and click on \"Settings\". Click on \"Terms &amp; Conditions\" or \"Privacy Policy\" to learn more about our Terms and Conditions or Privacy Policy respectively.",
+    "group": 1
+  },
+  {
+    "id": 13,
+    "question": "How to shop?",
+    "answer": "<!DOCTYPE html><html><body><p>1. Create your Order<br> i. Select any of the new and trending products or <br> ii. Post a new request if you can’t find what you are looking for. Provide an image and concise description of the product you are looking for.<br> iii. Enter the price of the product and tip for the traveller. </p> <p>2. Accept the Offer <br> Accept the offer if you are comfortable with the price and return date suggested by the traveller.<br> </p> <p>3. Pay Confidently <br> AMake payment via Paypal or Stripe. Tacko secures your payment until the product is delivered.</p> <p>4. Communicate<br> Coordinate a time and location for the delivery. </p> 5. Receive your Items<br> Meet your traveller and receive your order. Confirm the delivery on the Tacko app so your traveller gets paid.</body></html>",
+    "group": 2
+  },
+  {
+    "id": 14,
+    "question": "Can you explain the fees in the order form?",
+    "answer": "<!DOCTYPE html><html><body>Here’s a breakdown of the charges:<br> i. Product Price = Cost of one unit of the item you are requesting on Tacko<br> ii. Total Product Price = The product of Product Price and the quantity of the product requested.<br> iii. Bonus Money = The amount you pay the traveller for buying and delivering the item. In general, the higher the amount, the more offers your request will receive.<br> iv. Tacko Fee – The 20% service charge used to cover Tacko’s transaction fees and operational costs.<br> v. Total – The total amount you have to pay for the transaction.</body></html>",
+    "group": 2
+  },
+  {
+    "id": 15,
+    "question": "Where do I pick up my order?",
+    "answer": "You and your traveller can decide on the time and place to meet. However, we do recommend public spaces for the transaction for safety purposes.",
+    "group": 2
+  },
+  {
+    "id": 16,
+    "question": "Can I get a full refund if the traveller cancels my order?",
+    "answer": "Yes, you will receive a full refund if your order is cancelled.",
+    "group": 2
+  },
+  {
+    "id": 17,
+    "question": "What happens after I accept the delivery offer?",
+    "answer": "Your payment will be put into Tacko's secure escrow account and released after the delivery is made. We recommend that you message your traveller to confirm the time and place to meet and order details like size or colour of the item.",
+    "group": 2
+  },
+  {
+    "id": 18,
+    "question": "What do I do if my traveller isn’t responding?",
+    "answer": "If you are not receiving replies after multiple attempts to contact the traveller, please contact our customer service team and we will assist you in the matter.",
+    "group": 2
+  },
+  {
+    "id": 19,
+    "question": "Why doesn’t my order have any delivery offers?",
+    "answer": "Your order may not have any delivery offers for different reasons.\nWe found that some of the common reasons were:\n i. The tips paid to the traveller was too low\n ii. Your item may be out of stock\n iii. The price of the item is higher in the retailer compared to the price suggested in the order form\n iv. Not enough travellers is going to the location\n v. The item is difficult to buy or deliver",
+    "group": 2
+  },
+  {
+    "id": 20,
+    "question": "How to shop for others?",
+    "answer": "<!DOCTYPE html><html><body><p>1. Browse order requests or recommend a product.</p><p>2. Make an offer<br>i. Make offers on orders you can deliver.<br>ii. You can ask for a higher amount for a item if you think the offer is too low.</p><p>3. Communicate<br>Coordinate a time and location for the delivery once the shopper accepts your offer.</p><p>4. Buy the product</p>5. Deliver the product<br>Meet and pass the product to the shopper. Once he or she confirms the delivery, the payment will be released to your account.</body></html>",
+    "group": 3
+  },
+  {
+    "id": 21,
+    "question": "How do I check the amount I made in Tacko?",
+    "answer": "Go to the side menu and click on \"My Income\". You can check the total and daily income made on Tacko on the page.",
+    "group": 3
+  },
+  {
+    "id": 22,
+    "question": "Can I bring the shopper’s item into his or her country?",
+    "answer": "Different countries may have different prohibitions or restrictions on the items allowed to enter the country. It is a good habit to check with the customs to ensure that the item is not prohibited or restricted.",
+    "group": 3
+  },
+  {
+    "id": 23,
+    "question": "How do I contact my shopper?",
+    "answer": "Tacko has a built-in messenger that you can use to contact your shopper.",
+    "group": 3
+  },
+  {
+    "id": 24,
+    "question": "What happens if the shopper refuses to pay?",
+    "answer": "Shopper may forget to update their order after the item is delivered so it is helpful to remind them to update their order for you to get paid.\nIf you require further assistance, please contact our customer service team who is ready to help you with any queries or issues you may encounter.",
+    "group": 3
+  },
+  {
+    "id": 25,
+    "question": "What happens if my shopper wants me to cancel the order?",
+    "answer": "Shoppers cannot cancel their orders after they accepted the delivery offer. However, they may message you to ask you to cancel. You can choose to cancel if you have not purchased the item. However, you are not obliged to cancel after you purchased the item.",
+    "group": 3
+  },
+  {
+    "id": 26,
+    "question": "What methods of payment does Tacko accept?",
+    "answer": "Tacko only accepts payment through Paypal and Stripe. (currently I only see credit card as the only payment method)",
+    "group": 4
+  },
+  {
+    "id": 27,
+    "question": "What payout methods can I choose from?",
+    "answer": "You can choose to receive your TACKO income via your bank or Stripe Account.",
+    "group": 4
+  },
+  {
+    "id": 28,
+    "question": "How do I change my payment or payout methods?",
+    "answer": "Go to the side menu and click on \"Settings\". Click on \"Payment Method\" or \"Payout Method\" to change your payment or payout methods respectively.",
+    "group": 4
+  },
+  {
+    "id": 29,
+    "question": "Is my personal information (e.g. financial information, passwords, credit card numbers) shared with Tacko when I pay using Paypal or Stripe?",
+    "answer": "No financial information, passwords, credit card numbers or any personal information other than you name, email address and shipping address is received by us.",
+    "group": 4
+  },
+  {
+    "id": 30,
+    "question": "Do Paypal and Stripe charge me additional transaction fees on top of the service charge by Tacko?",
+    "answer": "(not sure about this)",
+    "group": 4
+  },
+  {
+    "id": 31,
+    "question": "How do I use my coupon code?",
+    "answer": "Enter your coupon code when you are accepting a delivery offer. The discount will be applied to your order.",
+    "group": 5
+  },
+  {
+    "id": 32,
+    "question": "Why isn’t my coupon code working?",
+    "answer": "Your coupon code may not work if the code entered is incorrect or expired. If you require further assistance, please contact our customer service team who is ready to help you with any queries or issues you may encounter.",
+    "group": 5
+  }
+]
