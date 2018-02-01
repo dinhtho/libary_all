@@ -18,3 +18,13 @@
             return null;
         }
     }
+
+
+
+// Use
+    new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Log.i(TAG, "run: "+getJsonData(" http://url"));
+            }
+        }).start();
